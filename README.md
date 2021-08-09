@@ -12,42 +12,32 @@ This take home test is used to determine how you go about solving problems logic
 
 ### Coding Challenge
 
-Managing product inventory requires adding products to a product catalog and adding warehouses to store the products.
-A system administrator control access rights for users.
+Build API for users to search Git. A system administrator can access reports of keywords searched users.
 
-Develop a backend app that exposes APIs for managing inventory with the following features:
+Develop a backend app that exposes APIs for user registration and search github repository and projects:
 
-1. Add product
-2. Add warehouse
-3. Stock
-4. Unstock
-5. List product
-6. List warehouses
-7. List warehouse
-8. Delete product
-9. Delete Warehouse
-8. Manage users
+
+1. Add User
+2. Search git repository or projects
+3. Fetch User based reports 
+4. Fetch Keyword based reports
 
 ### User Stories (Requirements)
 
 - As a user I can register.
-- As an admin i can approve registration, reject, suspend, and delete users.
-- As a user I can login in only after approval and do the following on a product:
-  - Add product
-  - List products
-  - Add warehouse
-  - List warehouse
-  - List warehouses
-  - Delete product
-  - Delete warehouse
+- As an admin I can approve registration, reject, suspend, and delete users.
+- As a user I can login in only after approval get list of repositories or projects based on my search type and keyword:
+  - Access list of Git repositories
 - As a user I can logout from the system
-- As an admin i can login to manage users
+- As an admin I can retrieve daily, weekly and monthly reports of users with a list of keywords searched.
+- As an admin I can retrieve daily, weekly and monthly reports based on keywords searched.
 
 Feel free to go above and beyond if you have ideas for extra features!
 
-### Notes and recommendations
+### Notes and recommendations 
 
-- Use Node.js | Python
+- Use Node.js | Python.
+- Use Git API V3 or above.
 - Dockerise the application
 - The languages, frameworks and libraries mentioned are recommendations only, you are free to use whatever you are comfortable with.
 - The project structure is up to your decision.
