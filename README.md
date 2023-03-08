@@ -12,10 +12,10 @@ This take home test is used to determine how you go about solving problems logic
 
 ### Coding Challenge
 
+## Question 1
 Build API for users to search Git. A system administrator can access reports of keywords searched users.
 
 Develop a backend app that exposes APIs for user registration and search github repository and projects:
-
 
 1. Add User
 2. Search git repository or projects
@@ -31,33 +31,47 @@ Develop a backend app that exposes APIs for user registration and search github 
 - As a user I can logout from the system
 - As an admin I can retrieve daily, weekly and monthly reports of users with a list of keywords searched.
 - As an admin I can retrieve daily, weekly and monthly reports based on keywords searched.
+- As a system stakeholder I can view the use case or class diagram of the system architecture
 
 Feel free to go above and beyond if you have ideas for extra features!
 
-### Notes and recommendations 
+## Question 2 - Data structures:
 
-- Use Node.js | Python.
-- Use Git API V3 or above.
+Exercise 1: Implement a stack using an array
+
+Implement a stack data structure using an array in Python. Your implementation should have the following methods:
+
+push(value): adds an element to the top of the stack
+pop(): removes and returns the top element from the stack
+peek(): returns the top element of the stack without removing it
+is_empty(): returns True if the stack is empty, False otherwise
+
+
+Exercise 2: Hash Table
+
+Implement a hash table data structure using a list in Python. Your implementation should have the following methods:
+
+insert(key, value): inserts a key-value pair into the hash table
+get(key): returns the value associated with the given key in the hash table, or None if the key is not in the hash table
+delete(key): removes the key-value pair associated with the given key from the hash table
+
+
+
+### Notes
+
+- Use Node.js | Python
+- Use Git API V3 or above
 - Dockerise the application
-- The project structure is up to your decision.
-- You are recommended to use git commits in a logical manner to demonstrate the development progress
-- Writing tests and adhering to development standards/conventions will attract extra points.
+- Apply your preferred coding structure
+- Unit test is an added advantage
+- Add README
+- Produce use case or class diagram for the system architecture 
 - Writing design documents will attract extra points :)
 
-### The HandOver
+### Submission
 
-- Send your implementation in Git Repo.
+1. Your code should be made available in a public or private repository, on your personal github or bitbucket;
+2. Push up to your repo one last time
+3. Email techchallenge@regovtech.com with the link to your repository
 
-### The Review
 
-Please include a README file with a quick description of your solution, the thought process, and any points you'd like to highlight. It will help us during the review, where we'll look at:
-
-- VCS history
-- the project structure,
-- the project architecture,
-- coding practices,
-- consistent coding style and formatting,
-- namings and naming conventions,
-- good use of comments,
-- lint warnings and code smells
-- unit & integration tests
