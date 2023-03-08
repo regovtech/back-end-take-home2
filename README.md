@@ -68,10 +68,11 @@ delete(key): removes the key-value pair associated with the given key from the h
 - Produce use case or class diagram for the system architecture 
 - Writing design documents will attract extra points :)
 
-### Submission
 
-1. Your code should be made available in a public or private repository, on your personal github or bitbucket;
-2. Push up to your repo one last time
-3. Email techchallenge@regovtech.com with the link to your repository
+## Submission process
 
+1. Email your complete work to techchallenge@regovtech.com & paul.agada@regovtech.com
+2. Submit Github Repo
+
+Good Luck!
 
