@@ -28,7 +28,7 @@ Develop a backend app that exposes APIs for user registration and search github 
 - As a user I can register.
 - As an admin I can approve registration, reject, suspend, and delete users.
 - As a user I can login in only after approval get list of repositories or projects based on my search type and keyword:
-  - Access list of Git repositories
+- Access list of Git repositories
 - As a user I can logout from the system
 - As an admin I can retrieve daily, weekly and monthly reports of users with a list of keywords searched.
 - As an admin I can retrieve daily, weekly and monthly reports based on keywords searched.
