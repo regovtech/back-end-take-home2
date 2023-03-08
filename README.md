@@ -56,7 +56,6 @@ get(key): returns the value associated with the given key in the hash table, or 
 delete(key): removes the key-value pair associated with the given key from the hash table
 
 
-
 ### Notes
 
 - Use Node.js | Python
