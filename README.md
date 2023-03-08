@@ -2,7 +2,7 @@
     <img src="https://regov-store.s3.ap-southeast-1.amazonaws.com/REGOV+Logo_CMYK.png" width="200" >
 </p>
 
-# Welcome to our PopQuiz!
+# Welcome to this PopQuiz!
 # { "developer": "Backend" }
 
 Hey! We are excited that you are interested in joining the team at Regov Technologies.
