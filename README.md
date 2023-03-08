@@ -37,7 +37,7 @@ Feel free to go above and beyond if you have ideas for extra features!
 
 ## Question 2 - Data structures:
 
-Exercise 1: Implement a stack using an array
+### Exercise 1: Implement a stack using an array
 
 Implement a stack data structure using an array in Python. Your implementation should have the following methods:
 
@@ -47,7 +47,7 @@ peek(): returns the top element of the stack without removing it
 is_empty(): returns True if the stack is empty, False otherwise
 
 
-Exercise 2: Hash Table
+### Exercise 2: Hash Table
 
 Implement a hash table data structure using a list in Python. Your implementation should have the following methods:
 
